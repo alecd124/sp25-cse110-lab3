@@ -1,4 +1,4 @@
-# 1-on-1 Standup Meeting Notes
+Standup Meeting Notes
 
 ** Date and Time:**  
 *April 23, 2025 – 8 AM*
