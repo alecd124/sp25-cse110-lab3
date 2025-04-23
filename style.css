@@ -93,3 +93,19 @@ button {
 button:hover {
   background-color: #1e40af;
 }
+header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 1rem;
+  z-index: 10;
+}
+
+figure {
+  position: relative;
+  margin-top: 2rem;
+}
+
+li {
+  margin-left: 0.25in; /* absolute unit */
+}
