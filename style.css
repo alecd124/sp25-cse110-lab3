@@ -109,7 +109,6 @@ figure {
 li {
   margin-left: 0.25in; /* absolute unit */
 }
-
 .flex-group {
   display: flex;
   gap: 1rem;
@@ -120,7 +119,6 @@ li {
   margin-top: 2rem;
   border: 1px solid #e5e7eb;
 }
-
 .flex-group div {
   flex: 1;
   min-width: 150px;
@@ -129,3 +127,7 @@ li {
   border-radius: 6px;
   text-align: center;
 }
+#agenda {
+  background-color: #fefefe;
+}
+
