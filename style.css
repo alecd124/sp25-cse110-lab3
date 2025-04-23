@@ -1,10 +1,11 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+:root {
+  --accent-color: #2563eb;
+}
 body {
   font-family: 'Inter', 'Segoe UI', sans-serif;
   background-color: #f7f9fc;
@@ -13,26 +14,23 @@ body {
   line-height: 1.6;
 }
 h1, h2 {
-  color: #111827;
+  color: color-mix(in srgb, #2563eb 70%, white);
   font-weight: 600;
   margin-bottom: 1rem;
 }
-
 h1 {
   font-size: 2rem;
   text-align: center;
 }
-
 h2 {
   font-size: 1.5rem;
   border-bottom: 2px solid #e5e7eb;
   padding-bottom: 0.5rem;
   margin-top: 2rem;
 }
-
-p, li {
+p {
+  color: hsl(210, 100%, 40%);
   font-size: 1rem;
-  color: #374151;
 }
 section, figure {
   background-color: #ffffff;
@@ -46,7 +44,6 @@ ul, ol {
   margin-left: 1.5rem;
   margin-top: 0.5rem;
 }
-
 li {
   margin-bottom: 0.5rem;
 }
@@ -66,20 +63,17 @@ audio, video {
   body {
     padding: 1rem;
   }
-
   h1 {
     font-size: 1.5rem;
   }
-
   h2 {
     font-size: 1.25rem;
   }
 }
 a {
-  color: #2563eb;
+  color: var(--accent-color, blue);
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
@@ -96,8 +90,6 @@ button {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
-
 button:hover {
   background-color: #1e40af;
 }
-
