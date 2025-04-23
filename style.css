@@ -109,3 +109,23 @@ figure {
 li {
   margin-left: 0.25in; /* absolute unit */
 }
+
+.flex-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  border: 1px solid #e5e7eb;
+}
+
+.flex-group div {
+  flex: 1;
+  min-width: 150px;
+  background-color: #f1f5f9;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
